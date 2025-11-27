@@ -2,8 +2,7 @@ import { Outfit } from 'next/font/google';
 import './globals.css';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from '@/context/AuthContext';
-import { AppProvider } from '@/context/AppContext'; // ✅ import your AppProvider
-import HomeProducts from '@/components/HomeProducts';
+import { AppProvider } from '@/context/AppContext';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
