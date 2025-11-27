@@ -2,7 +2,12 @@
 
 # dependencies
 /node_modules
-/.pnp
+.env
+.env.local
+.env.development
+.env.production
+
+.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
